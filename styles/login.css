@@ -18,7 +18,11 @@ section{
 }
 
 img{
+    background: transparent;
+    backdrop-filter: blur(35px);
     width: 215px;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.5);
 }
 .form-box{
     position: relative;
