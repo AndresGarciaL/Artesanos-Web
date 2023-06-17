@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 *{
+    text-decoration: none;
     margin: 0;
     padding: 0;
     font-family: 'poppins',sans-serif;
+    font-size: small;
+
+}
+#hr{
+    margin: 2px;
 }
 /* Estilos para el header de INICIO / REGISTRO */
 #inicio-sesion-registro{
+    padding: 3px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,10 +24,10 @@
     color: #000000;
 }
 #inicio-sesion-registro a:hover{
-    
     color: #82C294;
 }
 #inicio-sesion-registro ion-icon{
+
     margin-right: 10px;
     color: #000000;
     font-size: 1.2em;
@@ -28,8 +36,10 @@
 /* Estilos para el Header LOGO y categoria */
 
 .container{
-    display:flex;
+    margin-left: 30px;
+    display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 #container-logo{
     
@@ -37,7 +47,22 @@
    
 }
 #container-categoria {
-    margin-bottom: 20px;
+    height: 50px;
+    display: flex;
+    width: 65%;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.container-icons{
+    display: flex;
+    width: 20%;
+    height: 30%;
+}
+.container-icons img{
+    height: 35px;
+    width: 100px;
 }
 
 select {
@@ -55,13 +80,14 @@ select {
     margin-bottom: 20px;
 }
 
+
 #search-input {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
     padding: 10px;
     font-size: 16px;
-    width: 250px;
+    width: 400px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-right: 10px;
 }
 #search-button{
     padding: 10px;
@@ -80,10 +106,8 @@ button:hover {
 }
 
 
-
-
-
 .ul-nav{
+    margin-bottom: 0;
     background-color: #82C294;
     display: flex;
     justify-content: center;
@@ -151,4 +175,28 @@ transition: all 0.35s ease;
     -webkit-transform: translate(0%,0%);
     transform: translate(0%,0%);
     opacity: 1;
+}
+
+@media (min-width: 1024px) {
+    .carousel-inner-carousel-item {
+      height: 340px;
+      max-width: 1600px;
+    }
+  }
+  
+.carousel-item{
+    max-width: 100%;
+}
+.carousel-item img{
+    margin:0 auto;
+    max-height: 509px;
+}
+
+footer{
+    background-color:rgb(88, 88, 88);
+    color:white;
+    padding: 30px 0;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
 }
