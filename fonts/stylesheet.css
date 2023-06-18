@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'MantikaSansProCYR';
+    src: url('MantikaSansProCYR-Italic.eot');
+    src: local('☞MantikaSansProCYR-Italic'), local('MantikaSansProCYR-Italic'),
+        url('MantikaSansProCYR-Italic.eot?#iefix') format('embedded-opentype'),
+        url('MantikaSansProCYR-Italic.woff2') format('woff2'),
+        url('MantikaSansProCYR-Italic.woff') format('woff'),
+        url('MantikaSansProCYR-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MantikaSansProCYR';
+    src: url('MantikaSansProCYR-Regular.eot');
+    src: local('☞MantikaSansProCYR-Regular'), local('MantikaSansProCYR-Regular'),
+        url('MantikaSansProCYR-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MantikaSansProCYR-Regular.woff2') format('woff2'),
+        url('MantikaSansProCYR-Regular.woff') format('woff'),
+        url('MantikaSansProCYR-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MantikaSansProCYR';
+    src: url('MantikaSansProCYR-Bold.eot');
+    src: local('☞MantikaSansProCYR-Bold'), local('MantikaSansProCYR-Bold'),
+        url('MantikaSansProCYR-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MantikaSansProCYR-Bold.woff2') format('woff2'),
+        url('MantikaSansProCYR-Bold.woff') format('woff'),
+        url('MantikaSansProCYR-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MantikaSansProCYR-BoldIt';
+    src: url('MantikaSansProCYR-BoldIt.eot');
+    src: local('☞MantikaSansProCYR-BoldIt'), local('MantikaSansProCYR-BoldIt'),
+        url('MantikaSansProCYR-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('MantikaSansProCYR-BoldIt.woff2') format('woff2'),
+        url('MantikaSansProCYR-BoldIt.woff') format('woff'),
+        url('MantikaSansProCYR-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
