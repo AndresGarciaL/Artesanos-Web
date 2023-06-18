@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    font-size: small;
+
+}
+
+#hr {
+    margin: 2px;
+}
+
+/* Estilos para el header de INICIO / REGISTRO */
+#inicio-sesion-registro {
+    padding: 3px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#inicio-sesion-registro a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#inicio-sesion-registro a:hover {
+    color: #82C294;
+}
+
+#inicio-sesion-registro ion-icon {
+
+    margin-right: 10px;
+    color: #000000;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+/* Estilos para el Header LOGO y categoria */
+
+.container {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#container-logo {
+
+    width: 15%;
+
+}
+
+#container-categoria {
+    height: 50px;
+    display: flex;
+    width: 65%;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.container-icons {
+    display: flex;
+    width: 20%;
+    height: 30%;
+}
+
+.container-icons img {
+    height: 35px;
+    width: 100px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para el contenedor de búsqueda */
+.container-search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+#search-input {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    padding: 10px;
+    font-size: 16px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-button {
+    padding: 10px;
+    font-size: 16px;
+    width: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+
+
+
+button:hover {
+    background-color: #82C294;
+}
+
+
+.ul-nav {
+    margin-bottom: 0;
+    background-color: #82C294;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    list-style: none;
+    height: 50px;
+
+}
+
+.ul-nav * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.ul-nav a {
+    position: relative;
+    color: rgba(77, 80, 77, 0.5);
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+}
+
+.ul-nav a:before,
+.ul-nav a:after {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+}
+
+.ul-nav a:before {
+    right: 0;
+    top: 0;
+    border-right: 3px solid #0aec6c;
+    border-top: 3px solid #0aec6c;
+    -webkit-transform: translate(-100%, 50%);
+    transform: translate(-100%, 50%);
+}
+
+.ul-nav a:after {
+    left: 0;
+    bottom: 0;
+    border-left: 3px solid #0aec6c;
+    border-bottom: 3px solid #0aec6c;
+    -webkit-transform: translate(100%, -50%);
+    transform: translate(100%, -50%);
+}
+
+.ul-nav a:hover {
+    color: white;
+}
+
+.ul-nav a:hover:before,
+
+.ul-nav a:hover:after {
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
+
+
+/*Estilos para artesanos*/
+
+/* Imgs */
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 60px;
+}
+
+.artesanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.fotos {
+    height: 344px;
+    width: 344px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* PREGUNTAS */
+.preguntas {
+    text-align: center;
+    color: #82C294;
+    text-align: center !important;
+}
+
+/* Estilos para titulo h2 */
+
+h2 {
+    color: rgba(77, 80, 77, 0.5) !important;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+p{
+    text-align: center;
+}
+
+/* Estilos para  footer */
+
+footer{
+    background-color:rgb(88, 88, 88);
+    color:white;
+    padding: 30px 0;
+    margin-top: 30px;
+    text-align: center;
+}
