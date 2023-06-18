@@ -14,66 +14,52 @@
 }
 
 /* Estilos para el header de INICIO / REGISTRO */
-#inicio-sesion-registro {
+#inicio-sesion-registro{
     padding: 3px;
-    height: 25px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
 }
-
-#inicio-sesion-registro a {
+#inicio-sesion-registro img{
+  padding-bottom: 8px;
+    padding-right: 10px;
+}
+#inicio-sesion-registro a{
     text-decoration: none;
     color: #000000;
 }
-
-#inicio-sesion-registro a:hover {
+#inicio-sesion-registro a:hover{
     color: #82C294;
 }
-
-#inicio-sesion-registro ion-icon {
+#inicio-sesion-registro ion-icon{
 
     margin-right: 10px;
     color: #000000;
     font-size: 1.2em;
     top: 20px;
 }
-
 /* Estilos para el Header LOGO y categoria */
 
-.container {
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
-
-#container-logo {
-
+#container-logo{
+    
     width: 15%;
-
+   
 }
-
+/* Estilos para el SELECT de CATEGORIAS*/
 #container-categoria {
-    height: 50px;
     display: flex;
-    width: 65%;
     align-items: flex-start;
     flex-wrap: nowrap;
     justify-content: flex-end;
 }
 
-.container-icons {
-    display: flex;
-    width: 20%;
-    height: 30%;
-}
-
-.container-icons img {
-    height: 35px;
-    width: 100px;
-}
 
 select {
     padding: 10px;
@@ -87,20 +73,20 @@ select {
 .container-search {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px;flex-wrap: nowrap;
 }
 
 
 #search-input {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
     padding: 10px;
     font-size: 16px;
     width: 400px;
+    max-width: max-content;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
-#search-button {
+#search-button{
     padding: 10px;
     font-size: 16px;
     width: 50px;
@@ -108,6 +94,13 @@ select {
     border-radius: 4px;
     margin-right: 10px;
 }
+
+.container-icons{
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 
 
 

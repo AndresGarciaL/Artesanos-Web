@@ -13,11 +13,14 @@
 /* Estilos para el header de INICIO / REGISTRO */
 #inicio-sesion-registro{
     padding: 3px;
-    height: 25px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+}
+#inicio-sesion-registro img{
+  padding-bottom: 8px;
+    padding-right: 10px;
 }
 #inicio-sesion-registro a{
     text-decoration: none;
@@ -36,36 +39,24 @@
 /* Estilos para el Header LOGO y categoria */
 
 .container{
-    width: 80%;
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 #container-logo{
     
     width: 15%;
    
 }
+/* Estilos para el SELECT de CATEGORIAS*/
 #container-categoria {
-    width: 80%;
-    height: 50px;
     display: flex;
-    width: 65%;
     align-items: flex-start;
     flex-wrap: nowrap;
     justify-content: flex-end;
 }
 
-.container-icons{
-    display: flex;
-    width: 20%;
-    height: 30%;
-}
-.container-icons img{
-    height: 35px;
-    width: 100px;
-}
 
 select {
     padding: 10px;
@@ -79,7 +70,7 @@ select {
 .container-search {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px;flex-wrap: nowrap;
 }
 
 
@@ -88,6 +79,7 @@ select {
     padding: 10px;
     font-size: 16px;
     width: 400px;
+    max-width: max-content;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -98,6 +90,12 @@ select {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 10px;
+}
+
+.container-icons{
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
@@ -367,3 +365,4 @@ footer{
     margin-top: 30px;
     text-align: center;
 }
+
