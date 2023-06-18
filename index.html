@@ -14,13 +14,13 @@
     <div id="inicio-sesion-registro">
         <ion-icon name="person-circle-outline"></ion-icon>
         <h4> 
-            <a href="#">Iniciar Sesion/</a><a href="#">Registrarse</a>
+            <a href="/login.html">Iniciar Sesion</a>/<a href="/register.html">Registrarse</a>
         </h4>
     </div>
     <hr id="hr">
     <div class="container">
 
-       <div id="container-logo"><img src="img/logo-Artesanos-150px.png" alt=""></div>
+       <div id="container-logo"><a href="/index.html"><img src="img/logo-Artesanos-150px.png" alt=""></a></div>
             
         <div id="container-categoria">
             <select>
@@ -49,14 +49,14 @@
               </div>
         </div>
         <div class="container-icons">
-          <img src="/img/icons/heart-outline.svg" alt="">
-         <img src="/img/icons/cart-outline.svg" alt="">
+          <a href="#"><img src="/img/icons/heart-outline.svg" alt=""></a>
+          <a href="#"><img src="/img/icons/cart-outline.svg" alt=""></a>
         </div>
   
     </div>
     <nav class="nav-container">
         <ul class="ul-nav">
-            <li class="home"><a href="#">Home</a></li>
+            <li class="home"><a href="/index.html">Home</a></li>
             <li><a href="#">Tienda</a></li>
             <li><a href="#">Artesanos</a></li>
             <li><a href="#">Conocenos</a></li>
@@ -66,30 +66,92 @@
 </header>
 
 <main>
-  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/img/slider/home-fridakhalo.jpg" class="d-block w-100" alt="...">
+  <section>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/slider/Bienvenida.png" class="d-block w-100" alt="...">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="/img/slider/calaveras.jpg" class="d-block w-100" alt="...">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="servicios">
+      <div>
+        <img src="/img/icons/entrega.png" alt="">
+        <h4>ENVIO GRATIS</h4>
+      </div>  
+      <div>
+        <img src="/img/icons/devoluciones.png" alt="">
+        <h4>DEVOLUCIONES</h4>
+      </div>    
+      <div>
+        <img src="/img/icons/tarjeta-de-credito.png" alt="">
+        <h4>PAGO SEGURO</h4>
+      </div>  
+      <div>
+        <img src="/img/icons/lupa.png" alt="">
+        <h4>SEGUIMIENTO</h4>
+      </div>  
+    </div>
+    <hr>
+      <div class="title"><h2>CATEGORIAS</h2></div>
+      <hr>
+    <div class="categorias">
+    
+      <div class="one">
+        <a href="#"><img src="/img/Decoracion-del-hogar.webp" alt="">
+          <div class="overlay">
+            <h3>HOGAR</h3>
+        </div>
+        </a> 
       </div>
-      <div class="carousel-item">
-        <img src="/img/slider/camisa-artesanal.jpg" class="d-block w-100" alt="...">
+    
+      <div class="two">
+        
+        <a href="#"><img src="/img/Moda-sostenible.webp" alt="">
+          <div class="overlay">
+            <h3>ROPA</h3>
+        </div></a>        
       </div>
-      <div class="carousel-item">
-        <img src="/img/slider/mujer-pintura.jpg" class="d-block w-100" alt="...">
+     
+      <div class="three">
+
+        <div class="three-one"><a href="#"><img src="/img/Joyeria-artesanal.webp" alt="">
+          <div class="overlay-three">
+            <h3>JOYERIA</h3>
+        </div></a></div>
+        <div class="three-two"><a href="#"><img src="/img/textiles_grande.webp" alt="">
+          <div class="overlay-three">
+            <h3>ACCESORIOS</h3>
+        </div></a>  </div> 
+              
+    </div>
+    </div>
+
+    <div class="marca">
+      <div>
+        <h2>Marca</h2>
+      </div>
+      <div>
+        <img src="/img/logo-Artesanos-400px.png" alt="">
+        <h4>
+          Cada vez que compras una artesanía, estás adquiriendo algo más que un simple objeto. Estás adquiriendo una historia, un pedacito de cultura y una conexión directa con el corazón creativo de un artista. Estás contribuyendo a su sustento y a su sueño de seguir compartiendo su arte con el mundo.
+        </h4>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+
+    
+    
+  </section>
+
 </main>
 
 <footer>
