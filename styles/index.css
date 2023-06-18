@@ -176,11 +176,11 @@ transition: all 0.35s ease;
     transform: translate(0%,0%);
     opacity: 1;
 }
-
-
   
 .title{
-    margin: 20px;
+  background-color: #82C294;
+  color: aliceblue;
+    margin-top: 20px;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -210,13 +210,15 @@ transition: all 0.35s ease;
     justify-content: space-around;
   }
   .servicios img{
-    margin-bottom: 5px;
+    margin-bottom: 30px;
   }
 
   .categorias{
-       display: flex;
-       justify-content:space-around;
-       margin: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
   }
 
 
@@ -227,36 +229,32 @@ transition: all 0.35s ease;
   }
   
   .one img {
+    width: 85%;
     height: 100%;
     transition: 0.5s;
     object-fit: cover;
     border-radius: 10px;
   }
   
-  .one img:hover {
-   
-    transform: scale(1.2);
-  }
-  
   .two {
+    width: 30%;
     position: relative;
     display: inline-block;
     overflow: hidden;
   }
   
   .two img {
+    width: 75%;
     height: 100%;
     transition: 0.5s;
     object-fit: cover;
     border-radius: 10px;
   }
   
-  .two img:hover {
-    transform: scale(1.2);
-  }
+ 
+
   
   .three {
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -270,16 +268,12 @@ transition: all 0.35s ease;
   }
   
   .three-one img {
+    height: 100%;
     width: 270px;
     object-fit: cover;
     transition: 0.5s;
     border-radius: 10px;
   }
-  
-  .three-one img:hover {
-    transform: scale(1.2);
-  }
-  
   
   .three-two {
     position: relative;
@@ -289,15 +283,11 @@ transition: all 0.35s ease;
   }
   
   .three-two img {
+    height: 100%;
     width: 270px;
     object-fit: cover;
     transition: 0.5s;
-    border-radius: 10px;
-    
-  }
-  
-  .three-two img:hover {
-    transform: scale(1.2);
+    border-radius: 10px;   
   }
   
 
@@ -305,7 +295,7 @@ transition: all 0.35s ease;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 85%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -323,12 +313,34 @@ transition: all 0.35s ease;
     font-weight: bold;
   }
 
+  .overlay-two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+  .overlay-two:hover {
+    opacity: 1;
+  }
+  .overlay-two h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
   .overlay-three {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 93%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -345,6 +357,8 @@ transition: all 0.35s ease;
     font-weight: bold;
   }
 
+
+
   .marca{
     padding-right: 60px;
     padding-left: 60px;
@@ -357,6 +371,21 @@ transition: all 0.35s ease;
     text-align: justify;
 }
 
+.marca-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.marca-content img{
+  height: 100%;
+  width: 30%;
+}
+.marca-content h3{
+  margin-top: 10px;
+  width: 60%;
+  text-align: justify;
+}
 
 footer{
     background-color:rgb(88, 88, 88);
