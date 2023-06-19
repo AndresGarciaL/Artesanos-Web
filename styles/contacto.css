@@ -104,7 +104,20 @@ select {
 button:hover {
     background-color: #82C294;
 }
-
+.breadcrumb-item a{
+    font-size: medium;
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(72 79 88);
+}
+.breadcrumb-item a:hover{
+    text-decoration: none;
+    color: rgb(53, 197, 178);
+}
+.breadcrumb-item p{
+    text-decoration: none;
+    font-size: medium;
+}
 
 .ul-nav {
     margin-bottom: 0;
