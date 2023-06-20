@@ -23,3 +23,7 @@ function decreaseQuantity() {
 // Asociar eventos a los botones
 plusBtn.addEventListener('click', increaseQuantity);
 minusBtn.addEventListener('click', decreaseQuantity);
+
+document.getElementById("continuar-compra").addEventListener("click", function () {
+  window.location.href = "pago.html";
+});

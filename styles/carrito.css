@@ -276,16 +276,18 @@ section{
   .botones-carrito a{
     margin: 10px;
     text-decoration: none;
+    color: #82C294;
   }
   .btn-carrito{
     display: flex;
     align-items: center;
+    color: #82C294;
   }
   .btn-eliminar a:hover{
     color: red;
   }
   .btn--carrito a:hover{
-    color: #3e8e41;
+    color: #0aec6c;
   }
 
 
@@ -325,7 +327,7 @@ section{
     width: 65%;
     justify-content: space-between;
   }
-  .continuar-compra {
+  #continuar-compra {
     margin: 20px;
     padding: 10px 20px;
     background-color: #82C294;
@@ -334,10 +336,10 @@ section{
     border-radius: 4px;
     cursor: pointer;
   }
-  .continuar-compra:hover {
+  #continuar-compra:hover {
     background-color: #45a049;
   }
-  .continuar-compra:active {
+  #continuar-compra:active {
     background-color: #3e8e41;
   }
 
@@ -363,7 +365,7 @@ section{
   gap: 20px;
   }
  .product {
-    background-color: lightgray;
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -392,6 +394,8 @@ section{
   .agregar-al-carrito:active {
     background-color: #3e8e41;
   }
+
+
  footer {
   background-color: rgb(88, 88, 88);
   color: white;

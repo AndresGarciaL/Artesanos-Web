@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artesanos Web</title>
-  <link rel="stylesheet" href="styles/finalizacion.css">
+  <link rel="stylesheet" href="styles/pago.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -79,49 +79,45 @@
       aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item"><a href="pago.html">Pago</a></li>
-        <li class="breadcrumb-item active" style="font-size: medium;" aria-current="page">Finalización</li>
+        <li class="breadcrumb-item active" style="font-size: medium;" aria-current="page">Pago</li>
       </ol>
     </nav>
 
-    <!-- Finalizacion -->
-    <img id="comprobado" src="img/img-contacto/finalizacion/comprobado.png" alt="Finalizacion">
-    <h2>¡Gracias por tu compra!</h2>
-    <div class="compra-recibida">
-      <h3>Tu solicitud de compra fue recibida</h3>
-      <p>Tu periodo se encuentra en proceso de validación, en breve recibirás un correo con el detalle de tu compra</p>
-      <h3 id="pedido">Pedido :</h3>
-      <p>Fecha de solicitud de compra: </p>
+    <!-- Pago -->
+    <img id="comprobado" src="img/img-contacto/pago/tarjeta-de-credito.png" alt="Tarjeta de crédito">
+    <h2>Agrega tu tarjeta de crédito</h2>
+
+
+
+    <div class="contactar">
+      <div class="formulario">
+        <form accion="#" method="#">
+          <label>Número de tarjeta</label>
+          <input type="number" name="numero-de-tarjeta" value="" placeholder="Ingresa tu número de tarjeta" required>
+          <label>Nombre completo</label>
+          <input type="text" name="nombre-completo" value="" placeholder="Ingresa tu nombre" required>
+          <label>Fecha de expiración</label>
+          <input type="date" name="fecha-de-expiracion" value="" placeholder="Selecciona la fecha de expiración"
+            required>
+          <label>Código de seguridad</label>
+          <input type="password" name="codigo-de-seguridad" value="" placeholder="Ingresa tu código de seguridad"
+            required>
+          <div class="terminos">
+            <label>Acepto los términos y condiciones</label>
+            <input type="checkbox" name="checkbox" value="" required>
+          </div>
+        </form>
+      </div>
     </div>
 
-    <!-- Resumen -->
-    <div class="left">
-      <h2 id="h2-resumen">Resumen de Compra</h2>
-      <div class="introduccion">
-        <div class="imgs">
-          <img src="img/img-contacto/finalizacion/icon-ubicacion.png" id="venta">
-          <img src="img/img-contacto/finalizacion/icon-medio-pago.png" id="servicio">
-          <img src="img/img-contacto/finalizacion/icon-resumen.png" id="cooperacion">
-        </div>
-        <div class="preguntas">
-          <span id="titulo1">Entrega: </span>
-          <span id="titulo2">Método de Pago: </span>
-          <span id="titulo3">Resumen:</span>
-        </div>
-      </div>
-      <div class="preguntas2">
-        <span id="campo-valor1">12 de Julio de 2023</span>
-        <span id="campo-valor2">Tarjeta de Crédito</span>
-        <div class="parrafos">
-          <span id="campo-valor3"><b id="negrita">Subtotal:</b></span>
-          <span class="parrafo1">$50.00</span>
-          <span id="campo-valor3"><b id="negrita">Costo de Envío:</b></span>
-          <span class="parrafo1">$5.00</span>
-          <span id="campo-valor3"><b id="negrita2">Total:</b></span>
-          <span class="parrafo1">$55.00</span>
-        </div>
-      </div>
+    <div id="boton">
+      <button>Aceptar</button>
     </div>
+
+
+
+
+
 
 
 
@@ -137,6 +133,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="JS/pago.js"></script>
 </body>
 
 </html>
