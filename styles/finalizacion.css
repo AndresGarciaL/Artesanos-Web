@@ -14,44 +14,51 @@
 }
 
 /* Estilos para el header de INICIO / REGISTRO */
-#inicio-sesion-registro{
+#inicio-sesion-registro {
     padding: 3px;
     height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#inicio-sesion-registro img{
-  padding-bottom: 8px;
+
+#inicio-sesion-registro img {
+    padding-bottom: 8px;
     padding-right: 10px;
 }
-#inicio-sesion-registro a{
+
+#inicio-sesion-registro a {
     text-decoration: none;
     color: #000000;
 }
-#inicio-sesion-registro a:hover{
+
+#inicio-sesion-registro a:hover {
     color: #82C294;
 }
-#inicio-sesion-registro ion-icon{
+
+#inicio-sesion-registro ion-icon {
 
     margin-right: 10px;
     color: #000000;
     font-size: 1.2em;
     top: 20px;
 }
+
 /* Estilos para el Header LOGO y categoria */
 
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
-#container-logo{
-    
+
+#container-logo {
+
     width: 15%;
-   
+
 }
+
 /* Estilos para el SELECT de CATEGORIAS*/
 #container-categoria {
     display: flex;
@@ -73,12 +80,13 @@ select {
 .container-search {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;flex-wrap: nowrap;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
 }
 
 
 #search-input {
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
     padding: 10px;
     font-size: 16px;
     width: 400px;
@@ -86,7 +94,8 @@ select {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-#search-button{
+
+#search-button {
     padding: 10px;
     font-size: 16px;
     width: 50px;
@@ -95,26 +104,29 @@ select {
     margin-right: 10px;
 }
 
-.container-icons{
-  width: 20%;
-  display: flex;
-  justify-content: space-evenly;
+.container-icons {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 button:hover {
     background-color: #82C294;
 }
-.breadcrumb-item a{
+
+.breadcrumb-item a {
     font-size: medium;
     margin-left: 40px;
     text-decoration: none;
     color: rgb(72 79 88);
 }
-.breadcrumb-item a:hover{
+
+.breadcrumb-item a:hover {
     text-decoration: none;
     color: rgb(53, 197, 178);
 }
-.breadcrumb-item p{
+
+.breadcrumb-item p {
     text-decoration: none;
     font-size: medium;
 }
@@ -189,11 +201,51 @@ button:hover {
     opacity: 1;
 }
 
+/* Estilos para Finalizacion */
+h2 {
+    color: rgba(77, 80, 77, 0.5) !important;
+    text-align: center;
+    padding-bottom: 2%;
+}
 
-/*Estilos para introduccion*/
-.introduccion {
-    margin-top: 3%;
-    
+#h2-resumen{
+    padding-bottom: 2.5%;
+}
+
+h3 {
+    color: #82C294 !important;
+    text-align: center;
+}
+
+.compra-recibida{
+    padding: 2% 0;
+}
+
+#comprobado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+
+p {
+    text-align: center;
+}
+
+#pedido {
+    font-weight: bold;
+    text-align: center;
+    color: black !important;
+}
+
+/* Estilos para resumen de compra */
+.left{
+    background-color: #82C294;
+    border-radius: 5px;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
 }
 
 /* Imgs */
@@ -203,138 +255,72 @@ button:hover {
 }
 
 #venta {
-    margin-left: 5%;
-    width: 314px;
-    height: 314px;
+    margin-left: 13%;
+    width: 50px;
+    height: 50px;
 }
 
 #servicio {
-    width: 296px;
-    height: 296px;
+    width: 50px;
+    height: 50px;
 }
 
 #cooperacion {
-    margin-right: 5%;
-    width: 297px;
-    height: 318px;
+    margin-right: 14%;
+    width: 50px;
+    height: 50px;
 }
 
 /* PREGUNTAS */
 .preguntas {
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    color: #82C294;
+}
+
+.preguntas2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
 #titulo1 {
-    margin-left: 5%;
-    width: 296px;
-    height: 94px;
-}
-
-#titulo2 {
-    width: 296px;
-    height: 94px;
+    margin-left: 13% !important;
 }
 
 #titulo3 {
-    margin-right: 5%;
-    width: 296px;
-    height: 94px;
+    margin-right: 13%;
 }
 
-/* Estilos para contactar */
-
-/*Contactar*/
-.contactar {
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 2%;
-    background-color: #82C294;
-    border-radius: 5px;
+#campo-valor1 {
+    margin-left: 11%;
+    margin-right: 1%;
 }
 
-h2 {
-    color: rgba(77, 80, 77, 0.5) !important;
-    text-align: center;
+#negrita{
+    color: rgb(88, 88, 88);
 }
 
-.formulario {
-    margin-left: 2%;
-    margin-right: 2%;
+#negrita2{
+    text-transform: uppercase;
+    color: rgb(88, 88, 88);
 }
 
-input {
-    display: flex;
-    border: #82C294;
-    width: 100%;
-    padding: 2%;
-    border-radius: 5px;
-    margin-bottom: 2% !important;
-}
-
-input:focus {
-    outline: none;
-}
-
-textarea {
-    display: flex;
-    border: #82C294;
-    width: 100%;
-    padding: 2%;
-    border-radius: 5px;
-    margin-bottom: 2% !important;
-}
-
-textarea:focus {
-    outline: none;
-}
-
-.terminos {
-    display: flex;
+.parrafos {
     align-items: center;
-    justify-content: center;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 7%;
 }
 
-input[type=checkbox] {
-    margin: 2%;
-    width: 40px;
-    height: 40px;
+.parrafo1 {
+    display: block;
+    text-align: right;
 }
 
-/* Estilos para Boton */
-#boton{
-    display: flex;
-    justify-content: center;
-    margin: 2%;
-}
-
-button{
-    border: solid #82C294;
-    width: 15%;
-    height: 50px;
-    background-color: white;
-}
-
-/* Estilos para Detalles */
-.detalles{
-    margin: 6%;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-#correo{
-    display: flex;
-    justify-content: center;
-}
-
-b{
-    color: #82C294;
-}
-
-
+/* Estilos para Footer */
 footer {
     background-color: rgb(88, 88, 88);
     color: white;

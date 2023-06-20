@@ -17,118 +17,125 @@
 <body>
   <header>
     <div id="inicio-sesion-registro">
-        <img src="/img/icons/usuario.png" alt="">
-        <a href="/login.html"><h4>Iniciar Sesion </h4></a><h4> / </h4><a href="/register.html"><h4> Registrarse</h4></a>
+      <img src="/img/icons/usuario.png" alt="">
+      <a href="/login.html">
+        <h4>Iniciar Sesion </h4>
+      </a>
+      <h4> / </h4><a href="/register.html">
+        <h4> Registrarse</h4>
+      </a>
     </div>
     <hr id="hr">
     <div class="container">
-       <div><a href="/index.html"><img src="img/logo-Artesanos-150px.png" alt=""></a></div>
-            
-        <div id="container-categoria">
-            <select>
-                <option value="">Todas las categorías</option>
-                <optgroup label="Categoría 1">
-                  <option value="opcion1">Opción 1</option>
-                  <option value="opcion2">Opción 2</option>
-                  <option value="opcion3">Opción 3</option>
-                </optgroup>
-                <optgroup label="Categoría 2">
-                  <option value="opcion4">Opción 4</option>
-                  <option value="opcion5">Opción 5</option>
-                  <option value="opcion6">Opción 6</option>
-                </optgroup>
-                <optgroup label="Categoría 3">
-                  <option value="opcion7">Opción 7</option>
-                  <option value="opcion8">Opción 8</option>
-                  <option value="opcion9">Opción 9</option>
-                </optgroup>
-              </select>
-              <div class="container-search">
-                <input type="text" id="search-input" placeholder="Buscar...">
-                <button id="search-button" type="button">
-                  <ion-icon name="search-outline"></ion-icon>
-                </button>
-              </div>
+      <div><a href="/index.html"><img src="img/logo-Artesanos-150px.png" alt=""></a></div>
+
+      <div id="container-categoria">
+        <select>
+          <option value="">Todas las categorías</option>
+          <optgroup label="Categoría 1">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+          </optgroup>
+          <optgroup label="Categoría 2">
+            <option value="opcion4">Opción 4</option>
+            <option value="opcion5">Opción 5</option>
+            <option value="opcion6">Opción 6</option>
+          </optgroup>
+          <optgroup label="Categoría 3">
+            <option value="opcion7">Opción 7</option>
+            <option value="opcion8">Opción 8</option>
+            <option value="opcion9">Opción 9</option>
+          </optgroup>
+        </select>
+        <div class="container-search">
+          <input type="text" id="search-input" placeholder="Buscar...">
+          <button id="search-button" type="button">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
         </div>
-        <div class="container-icons">
-          <a href="#"><img src="/img/icons/corazon.png" alt=""></a>
-          <a href="carrito.html"><img src="/img/icons/carrito-de-compras.png" alt=""></a>
-        </div>
-  
+      </div>
+      <div class="container-icons">
+        <a href="#"><img src="/img/icons/corazon.png" alt=""></a>
+        <a href="carrito.html"><img src="/img/icons/carrito-de-compras.png" alt=""></a>
+      </div>
+
     </div>
-  
-</header>
+
+  </header>
   <main>
     <nav class="nav-container">
       <ul class="ul-nav">
-          <li class="home"><a href="/index.html">Home</a></li>
-          <li><a href="tienda.html">Tienda</a></li>
-          <li><a href="artesanos.html">Artesanos</a></li>
-          <li><a href="conocenos.html">Conócenos</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
+        <li class="home"><a href="/index.html">Home</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="artesanos.html">Artesanos</a></li>
+        <li><a href="conocenos.html">Conócenos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
 
-    <nav style="background: lightgray; --bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+    <nav
+      style="background: lightgray; --bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+      aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item active" style="font-size: medium;" aria-current="page">Contacto</li>
+        <li class="breadcrumb-item"><a href="pago.html">Pago</a></li>
+        <li class="breadcrumb-item active" style="font-size: medium;" aria-current="page">Finalización</li>
       </ol>
     </nav>
 
-    <section>
+    <!-- Finalizacion -->
+    <img id="comprobado" src="img/img-contacto/finalizacion/comprobado.png" alt="Finalizacion">
+    <h2>¡Gracias por tu compra!</h2>
+    <div class="compra-recibida">
+      <h3>Tu solicitud de compra fue recibida</h3>
+      <p>Tu periodo se encuentra en proceso de validación, en breve recibirás un correo con el detalle de tu compra</p>
+      <h3 id="pedido">Pedido :</h3>
+      <p>Fecha de solicitud de compra: </p>
+    </div>
+
+    <!-- Resumen -->
+    <div class="left">
+      <h2 id="h2-resumen">Resumen de Compra</h2>
       <div class="introduccion">
         <div class="imgs">
-          <img src="img/img-contacto/pc-tienda.png" id="venta">
-          <img src="img/img-contacto/servicio-cliente.png" id="servicio">
-          <img src="img/img-contacto/cooperacion.png" id="cooperacion">
+          <img src="img/img-contacto/finalizacion/icon-ubicacion.png" id="venta">
+          <img src="img/img-contacto/finalizacion/icon-medio-pago.png" id="servicio">
+          <img src="img/img-contacto/finalizacion/icon-resumen.png" id="cooperacion">
         </div>
         <div class="preguntas">
-          <h3 id="titulo1">¿Quieres vender tus productos online?</h3>
-          <h3 id="titulo2">Atención y apoyo</h3>
-          <h3 id="titulo3">Cooperación sostenible</h3>
+          <span id="titulo1">Entrega: </span>
+          <span id="titulo2">Método de Pago: </span>
+          <span id="titulo3">Resumen:</span>
         </div>
       </div>
-
-      <div class="contactar">
-        <h2>¡Queremos saber de usted!</h2>
-        <div class="formulario">
-          <form accion="#" method="#">
-            <label>Nombre</label>
-            <input type="text" name="nombre-completo" value="" placeholder="Ingresa tu nombre">
-            <label>Correo electrónico</label>
-            <input type="email" name="correo-electronico" value="" placeholder="Ingresa tu e-mail">
-            <label>Mensaje</label>
-            <textarea name="mensaje" cols="30" rows="10"></textarea>
-            <div class="terminos">
-              <label>Acepto los términos y condiciones</label>
-              <input type="checkbox" name="checkbox" value="" required>
-            </div>
-          </form>
-
+      <div class="preguntas2">
+        <span id="campo-valor1">12 de Julio de 2023</span>
+        <span id="campo-valor2">Tarjeta de Crédito</span>
+        <div class="parrafos">
+          <span id="campo-valor3"><b id="negrita">Subtotal:</b></span>
+          <span class="parrafo1">$50.00</span>
+          <span id="campo-valor3"><b id="negrita">Costo de Envío:</b></span>
+          <span class="parrafo1">$5.00</span>
+          <span id="campo-valor3"><b id="negrita2">Total:</b></span>
+          <span class="parrafo1">$55.00</span>
         </div>
       </div>
-
-      <div id="boton">
-        <button>Enviar</button>
-      </div>
-
-      <div class="detalles">
-        <p><b>Dirección:</b> Cancún, México</p>
-        <p><b>Sitio web:</b> ArtesanosWeb.com</p>
-      </div>
-      <p id="correo"><b>Correo electrónico:</b> artesanos@gmail.com</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>Todos los derechos reservados &copy; | SM-33 | Andrés Garcia Leyva | Gael Aldair Marquez Peralta</p>
-  </footer>
+    </div>
 
 
 
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+    <footer>
+      <p>Todos los derechos reservados &copy; | SM-33 | Andrés Garcia Leyva | Gael Aldair Marquez Peralta</p>
+    </footer>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
