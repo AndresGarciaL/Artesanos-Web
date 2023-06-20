@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artesanos Web</title>
+  <link rel="stylesheet" href="styles/conocenos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div id="inicio-sesion-registro">
+      <img src="/img/icons/usuario.png" alt="">
+      <a href="/login.html">
+        <h4>Iniciar Sesion </h4>
+      </a>
+      <h4> / </h4><a href="/register.html">
+        <h4> Registrarse</h4>
+      </a>
+    </div>
+    <hr id="hr">
+    <div class="container">
+      <div><a href="/index.html"><img src="img/logo-Artesanos-150px.png" alt=""></a></div>
+
+      <div id="container-categoria">
+        <select>
+          <option value="">Todas las categorías</option>
+          <optgroup label="Categoría 1">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+          </optgroup>
+          <optgroup label="Categoría 2">
+            <option value="opcion4">Opción 4</option>
+            <option value="opcion5">Opción 5</option>
+            <option value="opcion6">Opción 6</option>
+          </optgroup>
+          <optgroup label="Categoría 3">
+            <option value="opcion7">Opción 7</option>
+            <option value="opcion8">Opción 8</option>
+            <option value="opcion9">Opción 9</option>
+          </optgroup>
+        </select>
+        <div class="container-search">
+          <input type="text" id="search-input" placeholder="Buscar...">
+          <button id="search-button" type="button">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div class="container-icons">
+        <a href="#"><img src="/img/icons/corazon.png" alt=""></a>
+        <a href="#"><img src="/img/icons/carrito-de-compras.png" alt=""></a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main>
+    <nav class="nav-container">
+      <ul class="ul-nav">
+        <li class="home"><a href="/index.html">Home</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="artesanos.html">Artesanos</a></li>
+        <li><a href="conocenos.html">Conócenos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <nav
+      style="background: lightgray; --bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+      aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" style="font-size: medium;" aria-current="page">Conócenos</li>
+      </ol>
+    </nav>
+
+    <!-- Conócenos -->
+    <h2>¿Quiénes somos?</h2>
+    <div class="left">
+      <img id="img-conocenos" src="img/img-contacto/conocenos.png" alt="Imagen Conócenos">
+      <div class="parrafos">
+        <p class="parrafo1">Artesanos Web es un sitio web que apoya y promueve la artesanía. Es un espacio donde
+          difundimos los productos
+          e
+          historias de artesanos, artistas y diseñadores.</p>
+        <h3 class="preguntas">¿Por qué hecho a mano?</h3>
+        <p class="parrafo1">Entendemos cómo, dónde y quién hace lo que compramos; es una parte esencial de ser un
+          consumidor responsable.
+          Además, comprar a un artesano impulsa la economía local y como consumidor, conoces específicamente a aquellos
+          que se benefician de esta compra.</p>
+      </div>
+    </div>
+
+    <p class="parrafo4">Queremos cambiar la cultura del consumo y al mismo tiempo apoyar la cultura corporativa con una
+      cadena de
+      valor
+      donde todos ganemos. Queremos celebrar la artesanía, el uso de materiales sostenibles y elogiar la creatividad
+      de quienes promueven una economía circular</p>
+
+    <section>
+      <div class="introduccion">
+        <div class="preguntas">
+          <h3 id="titulo1">Solo hecho a mano</h3>
+          <h3 id="titulo2">Cadena de valor sostenible</h3>
+          <h3 id="titulo3">Historias</h3>
+        </div>
+        <div class="imgs">
+          <img src="img/img-contacto/hecho-a-mano.png" id="venta">
+          <img src="img/img-contacto/sostenible.png" id="servicio">
+          <img src="img/img-contacto/hisotorias.png" id="cooperacion">
+        </div>
+      </div>
+
+      <h2>Nuestro trabajo</h2>
+      <img id="ODS"
+        src="https://s3-alpha-sig.figma.com/img/eafb/1095/c783f6554be03449eb7e97366e5408c7?Expires=1688342400&Signature=cOvSIDUwg9NRvyvccZ5cHOrIllPPXtc19xk2X3JUzyqf28S5jl1bIx7nIpAEXmkqE93kU5INw2gPAJYPLuy5Nujn0Ji3sSsBr~F9t9dRYNlDm8M7CgLTl-it3nLQP9ZMim8m1-r188XuD76iGUt4I9vvi0QUy7kV-Il2bvOYc5xWv8s~73y6I2hdpeqzznmiRbAmUzTSs~5JdYgOF0ZeiK1032pS2u2cg2HQeIp5U~jYmFKK5T4X6Rg2NxmiO~f5WzIscS4TVhbual-HqCM85BKtvABHbKCWu8~0pXOwG8~-9u7xP7ZHTq9EOa8A1XlvmcmZeDI33dh-E0EXcRjXHA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        alt="Objetivos">
+      <p class="parrafo4">Desde Valéxico estamos aportando nuestro granito de arena para conseguir estos objetivos. Con
+        el trabajo que se
+        realiza desde nuestra zanja, ayudamos con los objetivos #1: Acabar con la pobreza, #8: Trabajo decente y
+        crecimiento económico y económico #12: Producción y consumo responsables.</p>
+      <div class="imgs">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/06bb/f62e/ebe9988e2c3f1cad0f9393702c216e13?Expires=1688342400&Signature=Qt0jDvxHCBoK9p-IjLqdYmU6aTOU3gyVCTwrSrzoPAIgUn-DejdpBmwXn4DsKeJqN9Iyn4sZSbh1zeyUJTsayTkLcA1WABRTOlm6K0Wx0dlOOV-K2rChcSi9atyzVlc5V~~3czPEzFqTD3CGNwS-4hzI3uvX1FUL19Jwh9i9sguGqfICa6rdVI82Wnmdby4JfNkLiLp6takE69QhSp6~5R42gRX9qWSCIqpelRyNjeM3Rpor26Z-vp7IhhRkvK~Txaa5WDRPl2AWtYOafxLottkfLWqwRcNfIFOd96z6VPNGt5BQ7Yv8406c51iCLU0Pg-0RG~h8hIYn-kWRSHBhIA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+          alt="Fin de la pobreza" id="pobreza">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/a9cb/cf4c/002c7d3be0a30b8f031b680dfa3abfe1?Expires=1688342400&Signature=gR0UtZJIS4jEhPofqKifz9RCbDg1O6LCxIVKvrClLcdHRbsqWxEfg-5w4Y5sgTKn5SQ2bz~VNUJKC6~coz~iYi3kOJdEbP2midEpga1G-fKKrPUkNekho7CJOvfwUrFuEKuR4rQafppE0vD7d2xcNFH0afT2sW0VDhfuJqCqW6A-sU2fHIaU~C01zh~vp0GdHkiwcwTzzmXKTSQOFWwvkPgbvMwRXuBIQ6ZtbBFsaRFTHPjwVk-fbfwAxoVwt7vhJZgtxHB~Uk3P3uA7uKV6FsqkAjqLI6xv5KOCsQaxjtYgt-~1AXJbR1TDjsHrBrjZCDa5-7diBjJQiMLNqpjTSw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+          alt="Trabajo decente" id="trabajo">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/0de2/f8ee/07bb7f56e511e7837010998b7130286f?Expires=1688342400&Signature=MJpA-PB-1P4NSD22ACMrbuOq7Srna0DC2LYh7iRAS2DEPVjBhLfs2RgSSTuJg3h5RZOgQk~dCm0Dsrc1F3HDcCr3tptOgsT5POX~a~Cch6A36cg5xt1eD7fp1WCuU1fiiCL1S5jvBrmsLxAlPl5ry-H52JRl-gFsms1k5iwbtCgPpY6wkc65JYocOrYLWjuzHwwWTEmCNNvyAtLg165jCnZZzgWzr30yjvUQ1ZLwkxRE08IbK-jLHW~j1yTjBG-QhB4brQr3KJW1RmNch-98HQZKOL5hR3HzyDRxB-kzYjkgTR4ux6imYOykzEc1vq6XzHfxy0j8W5AJJfLFxZEJOQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+          alt="Producción y consumo responsable" id="produccion">
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Todos los derechos reservados &copy; | SM-33 | Andrés Garcia Leyva | Gael Aldair Marquez Peralta</p>
+  </footer>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
