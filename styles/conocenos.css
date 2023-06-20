@@ -110,10 +110,6 @@ select {
     justify-content: space-evenly;
 }
 
-
-
-
-
 button:hover {
     background-color: #82C294;
 }
@@ -264,8 +260,8 @@ p {
 
 /*Estilos para introduccion*/
 .introduccion {
-    margin-top: 130px;
-    margin-bottom: 130px;
+    margin-top: 70px;
+    margin-bottom: 40px;
 
 }
 
