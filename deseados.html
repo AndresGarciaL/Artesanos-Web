@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artesanos Web</title>
-  <link rel="stylesheet" href="styles/conocenos.css">
+  <link rel="stylesheet" href="styles/deseados.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -63,7 +63,6 @@
     </div>
 
   </header>
-
   <main>
     <nav class="nav-container">
       <ul class="ul-nav">
@@ -80,68 +79,46 @@
       aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active" style="font-size: medium;" aria-current="page">Conócenos</li>
+        <li class="breadcrumb-item active" style="font-size: medium;" aria-current="page">Lista de deseados</li>
       </ol>
     </nav>
 
-    <!-- Conócenos -->
-    <h2>¿Quiénes somos?</h2>
-    <div class="left">
-      <img id="img-conocenos" src="img/img-contacto/conocenos.png" alt="Imagen Conócenos">
-      <div class="parrafos">
-        <p class="parrafo1">Artesanos Web es un sitio web que apoya y promueve la artesanía. Es un espacio donde
-          difundimos los productos
-          e
-          historias de artesanos, artistas y diseñadores.</p>
-        <h3 class="preguntas">¿Por qué hecho a mano?</h3>
-        <p class="parrafo1">Entendemos cómo, dónde y quién hace lo que compramos; es una parte esencial de ser un
-          consumidor responsable.
-          Además, comprar a un artesano impulsa la economía local y como consumidor, conoces específicamente a aquellos
-          que se benefician de esta compra.</p>
-      </div>
+    <!-- Lista de productos deseados -->
+
+    <h2>Lista de productos deseados</h2>
+
+    <div class="campos">
+      <h3 class="campo">NOMBRE DEL PRODCUTO</h3>
+      <h3 class="campo">PRECIO POR UNIDAD</h3>
+      <h3 class="campo">ESTADO DE INVENTARIO</h3>
     </div>
 
-    <p class="parrafo4">Queremos cambiar la cultura del consumo y al mismo tiempo apoyar la cultura corporativa con una
-      cadena de
-      valor
-      donde todos ganemos. Queremos celebrar la artesanía, el uso de materiales sostenibles y elogiar la creatividad
-      de quienes promueven una economía circular</p>
+    <div class="productos">
+      <button class="eliminar">X</button>
+      <img src="img/img-contacto/deseados/alebrije-dragon.png" alt="Producto 1" class="img-producto">
+      <p>Alebrije dragon</p>
+      <p>$50</p>
+      <p>Disponible</p>
+      <button>Agregar al carrito</button>
+    </div>
 
-    <section>
-      <div class="introduccion">
-        <div class="preguntas">
-          <h3 id="titulo1">Solo hecho a mano</h3>
-          <h3 id="titulo2">Cadena de valor sostenible</h3>
-          <h3 id="titulo3">Historias</h3>
-        </div>
-        <div class="imgs">
-          <img src="img/img-contacto/hecho-a-mano.png" id="venta">
-          <img src="img/img-contacto/sostenible.png" id="servicio">
-          <img src="img/img-contacto/hisotorias.png" id="cooperacion">
-        </div>
-      </div>
+    <div class="productos">
+      <button class="eliminar">X</button>
+      <img src="img/img-contacto/deseados/muñeca.jpg" alt="Producto 2" class="img-producto">
+      <p>Muñeca mexicana</p>
+      <p>$50</p>
+      <p>Disponible</p>
+      <button>Agregar al carrito</button>
+    </div>
 
-      <h2>Nuestro trabajo</h2>
-      <img id="ODS"
-        src="img/img-contacto/conocenos/ODS.png"
-        alt="Objetivos">
-      <p class="parrafo4">Desde Valéxico estamos aportando nuestro granito de arena para conseguir estos objetivos. Con
-        el trabajo que se
-        realiza desde nuestra zanja, ayudamos con los objetivos #1: Acabar con la pobreza, #8: Trabajo decente y
-        crecimiento económico y económico #12: Producción y consumo responsables.</p>
-      <div class="imgs">
-        <img
-          src="img/img-contacto/conocenos/pobreza.png"
-          alt="Fin de la pobreza" id="pobreza">
-        <img
-          src="img/img-contacto/conocenos/trabajo.png"
-          alt="Trabajo decente" id="trabajo">
-        <img
-          src="img/img-contacto/conocenos/produccion.png"
-          alt="Producción y consumo responsable" id="produccion">
-      </div>
-      </div>
-    </section>
+    <div class="productos">
+      <button class="eliminar">X</button>
+      <img src="img/img-contacto/deseados/alcancia.png" alt="Producto 3" class="img-producto">
+      <p>Alcancia de puerquito </p>
+      <p>$50</p>
+      <p>Disponible</p>
+      <button>Agregar al carrito</button>
+    </div>
   </main>
 
   <footer>
@@ -149,8 +126,10 @@
   </footer>
 
 
+
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="JS/pago.js"></script>
 </body>
 
 </html>
